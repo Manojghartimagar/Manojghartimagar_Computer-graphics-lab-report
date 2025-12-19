@@ -4,7 +4,7 @@
 int main()  
 { 
 int gd = DETECT, gm; 
-initgraph(&gd, &gm, ""); // BGI files in same folder 
+initgraph(&gd, &gm, ""); // BGI files same folder 
 outtext("Graphics Mode Initialized Successfully"); 
 getch(); 
 closegraph(); 
