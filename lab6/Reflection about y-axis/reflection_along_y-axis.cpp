@@ -23,7 +23,7 @@ void Reflect()
     for (iCnt = 0; iCnt < 3; iCnt++)
         PolygonPoints[iCnt][0] = (640 - PolygonPoints[iCnt][0]);
 }
-void main()
+int main()
 {
     int gd = DETECT, gm;
     int iCnt;
@@ -37,5 +37,5 @@ void main()
     getch();
     Reflect();
     PolyLine();
-    getch();
+    return 0;
 }
